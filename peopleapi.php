@@ -8,7 +8,7 @@ var $lastName;
 $items= array();
 
 for($i=0; $i<10; $i++) {
-$personRecord=new Person();
+$personRecord= new Person();
 $personRecord->firstName="Name $i";
 $personRecord->lastName="lastName $i";
 $items[$i]= $personRecord;
